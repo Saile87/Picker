@@ -28,3 +28,8 @@ import Foundation
         var gb: Int
     }
 
+enum AppleGeräte: String, CaseIterable, Identifiable {
+    case iPhone, Tablett
+    var id: Self { self }
+}
+

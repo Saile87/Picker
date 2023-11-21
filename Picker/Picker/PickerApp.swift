@@ -11,7 +11,7 @@ import SwiftUI
 struct PickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(smart: Iphone(name: "", color: "", gb: 0))
         }
     }
 }
